@@ -1,0 +1,22 @@
+n1= 5
+n2= 6
+n3= 9
+suma = n1 + n2 +n3
+print(suma)
+
+
+
+class Coche:
+
+    def __init__(self, modelo, puertas) -> None:
+        self.modelo = modelo
+        self.puertas = (int(puertas))
+        print(f"Creando Coche {modelo}, con una cantidad de {puertas} puertas.")
+    def sum (self):
+        print  (int(self.puertas + 1))
+        
+ 
+
+miCoche = Coche ('Ford', 4)
+print(f"Coche marca {miCoche.modelo}")
+print(miCoche.puertas.sum())
